@@ -1,0 +1,72 @@
+/**index.wxss**/
+
+.homeHeadBar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 40px;
+  background-color: #f2f2f2;
+}
+
+.homeAreaView {
+  display: flex;
+  width: 20%;
+  height: 40px;
+  justify-content: center;
+}
+
+
+.hIconView{
+  display: flex;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.homeSaechBar{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 36px;
+  margin-right: 5px;
+  margin-top: 2px;
+  background-color: #FFF;
+  border-radius: 20px;
+}
+
+.homeSeachIcon{
+  display: flex;
+  width: 15%;
+  height: 25px;
+  justify-content: center;
+  padding-top: 7px;
+}
+
+.homeSearchInput{
+  display: flex;
+  width: 80%;
+  height: 34px;
+}
+
+.inputStyle{
+  display: flex;
+  font-size: 15;
+  color: #999999;
+  padding-top: 5px;
+}
+
+.inputView{
+  display: flex;
+  font-size: 15px;
+  color: #DBDBDB;
+
+}
+
+
+.homeBarTxt{
+  font-size: 13;
+  color: #999999;
+  padding: 5px;
+  
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
