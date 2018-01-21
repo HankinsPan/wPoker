@@ -3,6 +3,13 @@
 var app = getApp()
 var utils = require('../../utils/util.js')
 
+const AV = require('../../libs/av-weapp-min.js');
+
+AV.init({
+  appId: 'F9q8tkcCNmOOXF2LVbmIyqSV-gzGzoHsz',
+  appKey: 'VDDL8pebJ5A9G0Y6CfGLIxLo',
+});
+
 Page({
   data: {
     mode: "scaleToFill",
@@ -15,13 +22,19 @@ Page({
     autoplay: true,
     interval: 2000,
     duration: 2000,
+
+    todos: [],
+    student: null,
   },
 
   onLoad() {
     var array = this.data.imgUrls;
 
-    console.log("fuck imgUrls ->", this.data.imgUrls);
-  }
+    // console.log("fuck imgUrls ->", this.data.imgUrls);
+
+    // console.log('learn av ->', AV);
+  },
+
 
 
 })
